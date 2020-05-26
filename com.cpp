@@ -18,11 +18,6 @@ void Comunication::imprime(){
 };
 
 bool Comunication::isAvailable(){
-	/*if(this->semaph == 1){
-		return true;
-	}else{
-		return false;
-	};*/
 	return (this->semaph);
 };
 
